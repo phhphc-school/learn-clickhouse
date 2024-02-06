@@ -1,0 +1,1 @@
+docker run -it --rm --network=host clickhouse/clickhouse-server clickhouse client --host=localhost --port=59000 $@;
